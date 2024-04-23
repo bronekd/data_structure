@@ -12,7 +12,7 @@ class CharQueue:
 
     def enqueue(self, item):
         if not self.is_full():
-            self.queue.append(item):
+            self.queue.append(item)
             return True
         return False
 
