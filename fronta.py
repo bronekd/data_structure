@@ -10,7 +10,7 @@ class CharQueue:
     def is_full(self):
         return len(self.queue) == self.size
 
-    def enqueue(self, item):
+    def enqueue(self, item): # přidat
         if not self.is_full():
             self.queue.append(item)
             return True
@@ -24,7 +24,7 @@ class CharQueue:
 
     def show(self):
         if not self.is_empty():
-            pass
+            return self
 
 
 
