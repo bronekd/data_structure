@@ -1,0 +1,30 @@
+Pizza app
+
+Co umí hlavní menu
+- zadat novou objednávku
+- zjistit stav objednávky (objednávka pořadí nebo je první tak se na ní pracuji)
+- vybavit objednávku (byla udělana smaže se z fronty)
+
+
+co bude potřebovat aplikace
+- class Pizza, class Topping (priloha na pizzu)
+- class Price
+- class Order - položky
+- class Queue - pracuje s objednavkou řadí je za sebe využít frontu co jsme naprogramovali
+
+- vytisknout menu - print_main_menu()
+
+- vytisknout položky k objednání - print_pizza_menu()
+- vytisknout objednávkový formulář ????
+- class Pizza, class Topping (suroviny na pizzu)
+
+
+- zjistit stav objednávky check_order_state()
+
+
+- odbavení objednávky - detele_ready_order()
+
+
+
+
+
