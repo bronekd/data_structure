@@ -26,7 +26,7 @@ class Pizza:
         return f"""
 {self.name}                  {self.get_price()} $
 -----------------------------------------------
-{self.__toppings}
+{topps}
 """
 
 
