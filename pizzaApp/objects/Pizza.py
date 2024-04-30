@@ -1,4 +1,4 @@
-from Price import Price
+from .Price import Price
 class Pizza:
     def __init__(self, name, toppings):
         #todo přidat druh těsta (tenky, tlusty), přidat druh základu (rajče, smetana)

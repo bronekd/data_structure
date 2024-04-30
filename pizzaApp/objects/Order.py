@@ -1,6 +1,11 @@
 
 class Order:
     def __init__(self, address, meal):
+        """
+
+        :param address: string for adress
+        :param meal:
+        """
         # todo adresa může být jako samostatný objekt
         self.__address = address
         self.__meal = meal

@@ -16,6 +16,8 @@ def print_pizza_menu():
     
     """)
 
+def print_bye():
+    print("Naschledanou a dekuji za použiti aplikace")
 
 def input_address():
     address = input("Zadej adresu pro doruceni: ")
@@ -26,7 +28,8 @@ def create_order_message(order):
     print("Objednavka vytvorena")
     print("info o objednavce")
 
-
+def wrong_choice_message():
+    print("Zadal jsi zlou volbu!! ")
 
 
 
