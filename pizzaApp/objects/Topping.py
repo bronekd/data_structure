@@ -11,6 +11,11 @@ class Topping:
     def get_price(self):
         return self.__price
 
+    def to_dict(self):
+        return {
+            "name": self.__name,
+            "price": self.__price
+        }
 
     #TODO Přidat možnost zdražení
 

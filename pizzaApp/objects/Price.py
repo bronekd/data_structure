@@ -11,3 +11,8 @@ class Price:
     def __str__(self):
         return f"{self.__integer},{self.__fraction}"
 
+    def to_dict(self):
+        return {
+            "integer": self.__integer,
+            "fraction": self.__fraction
+        }

@@ -29,4 +29,8 @@ class Pizza:
 {topps}
 """
 
-
+    def to_dict(self):
+        return {
+            "name": self.__name,
+            "toppings": [t.to_dict() for t in self.__toppings]
+        }
