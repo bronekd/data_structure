@@ -1,4 +1,5 @@
 # pohled vypis menu asi menu
+import json
 
 def print_main_menu():
     print("""
@@ -11,9 +12,12 @@ def print_main_menu():
 
 
 def print_pizza_menu():
-    print("""
-    Seznam Pizz
-    
+    x = open("resources/pizza_list.json","r")
+    data = json.load(x)
+
+    print(f"""
+    Seznam Pizz:
+    {data}
     """)
 
 def print_bye():

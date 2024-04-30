@@ -1,1 +1,1 @@
-{"name": "TEST_PIZZA", "toppings": [{"name": "chess", "price": 10}]}
+{"name": "TEST_PIZZA", "toppings": [{"name": "chess", "price": 10}, {"name": "chess", "price": 10}]}

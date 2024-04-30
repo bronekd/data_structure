@@ -22,5 +22,8 @@ class Queue:
 
     def show(self):
         if not self.is_empty():
-            return self
-        #todo doplnit!!!
+            for i in self.queue:
+                print(i, end=" ")
+            print()
+        else:
+            print("Queue is empty.")

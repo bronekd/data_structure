@@ -11,7 +11,7 @@ print(t)
 
 #vytvoření seznamu příloh toppings a pizz
 
-pizza = Pizza("TEST_PIZZA", [t])
+pizza = Pizza("TEST_PIZZA", [t,t])
 with open("test.json", "w") as file:
     json.dump(pizza.to_dict(), file)
 
